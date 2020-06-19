@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+  padding-top: 250px;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper #stopwatch {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.wrapper button {
+  font-size: 18px;
+  width: 150px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-circle {
+  background-color: rgb(21, 197, 36);
+}
+
+.button-start {
+  background-color: rgb(44, 151, 238);
+}
+
+.button-stop {
+  background-color: rgb(238, 44, 44);
+}
+
+.wrapper .clear {
+  width: 250px;
+  color: rgb(0, 0, 0);
+}
+
+.time-list {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.time-list li {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  width: 100%;
+  opacity: 0;
+  height: 0;
+}
+
+.time-list .show {
+  opacity: 1;
+  height: 1em;
+  border: none;
+}
